@@ -1,8 +1,12 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Scanner;
 
 import static java.lang.Math.*;
 
 public class Calculator {
+    private static final Logger logger= LogManager.getLogger(Calculator.class);
     public static void main(String[] args) {
         Calculator calculator=new Calculator();
         Scanner scanner=new Scanner(System.in);
@@ -51,12 +55,14 @@ public class Calculator {
     }
 
     public static int fact(int num1){
+        logger.info("To find Factorial of number "+num1);
         int result=1;
         if(num1==0||num1==1)
                 return 1;
         for(int i=num1;i>=1;i--){
             result=result*i;
         }
+        logger.info("Result of factorial of "+num1 +" is "+result);
         return result;
     }
 
@@ -65,6 +71,7 @@ public class Calculator {
     public static double squareRoot(double num)
     {
         //temporary variable
+        logger.info("Find the Square Root of number "+num);
         if(num==0)
             return 0;
         if(num<0)
@@ -77,19 +84,23 @@ public class Calculator {
             sqrtroot=(t+(num/t))/2;
         }
         while((t-sqrtroot)!= 0);
+        logger.info("Result of the square root of "+num+" is "+sqrtroot);
         return sqrtroot;
     }
 
 
 
     public static double logarithm(double num){
+        logger.info("find the log of "+num);
+        logger.info("find the log of "+num+" is "+log(num));
         return log(num);
     }
 
-
-
     public static double power(double x, double y)
     {
+        logger.info("power of the number "+x+","+y);
+        logger.info("power of the number "+x+","+y+" is "+pow(x,y));
        return pow(x,y);
+
     }
 }
