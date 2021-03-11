@@ -318,3 +318,35 @@
 12/Mar/2021:01:50:40 799 [Calculator.java] [INFO] Calculator To find Factorial of number 1
 12/Mar/2021:01:50:40 800 [Calculator.java] [INFO] Calculator To find Factorial of number 5
 12/Mar/2021:01:50:40 801 [Calculator.java] [INFO] Calculator Result of factorial of 5 is 120
+12/Mar/2021:02:03:58 733 [Calculator.java] [INFO] Calculator Find the Square Root of number 0.0
+12/Mar/2021:02:03:58 739 [Calculator.java] [INFO] Calculator Find the Square Root of number 1.0
+12/Mar/2021:02:03:58 740 [Calculator.java] [INFO] Calculator Result of the square root of 1.0 is 1.0
+12/Mar/2021:02:03:58 740 [Calculator.java] [INFO] Calculator Find the Square Root of number 4.0
+12/Mar/2021:02:03:58 740 [Calculator.java] [INFO] Calculator Result of the square root of 4.0 is 2.0
+12/Mar/2021:02:03:58 742 [Calculator.java] [INFO] Calculator To find Factorial of number 0
+12/Mar/2021:02:03:58 743 [Calculator.java] [INFO] Calculator To find Factorial of number 1
+12/Mar/2021:02:03:58 744 [Calculator.java] [INFO] Calculator To find Factorial of number 5
+12/Mar/2021:02:03:58 744 [Calculator.java] [INFO] Calculator Result of factorial of 5 is 120
+12/Mar/2021:02:03:58 745 [Calculator.java] [INFO] Calculator find the log of 1.0
+12/Mar/2021:02:03:58 746 [Calculator.java] [INFO] Calculator find the log of 1.0 is 0.0
+12/Mar/2021:02:03:58 747 [Calculator.java] [INFO] Calculator Find the Square Root of number 0.0
+12/Mar/2021:02:03:58 747 [Calculator.java] [INFO] Calculator Find the Square Root of number 1.0
+12/Mar/2021:02:03:58 748 [Calculator.java] [INFO] Calculator Result of the square root of 1.0 is 1.0
+12/Mar/2021:02:03:58 748 [Calculator.java] [INFO] Calculator Find the Square Root of number 4.0
+12/Mar/2021:02:03:58 749 [Calculator.java] [INFO] Calculator Result of the square root of 4.0 is 2.0
+12/Mar/2021:02:03:58 750 [Calculator.java] [INFO] Calculator power of the number 0.0,0.0
+12/Mar/2021:02:03:58 751 [Calculator.java] [INFO] Calculator power of the number 0.0,0.0 is 1.0
+12/Mar/2021:02:03:58 752 [Calculator.java] [INFO] Calculator power of the number 2.0,3.0
+12/Mar/2021:02:03:58 752 [Calculator.java] [INFO] Calculator power of the number 2.0,3.0 is 8.0
+12/Mar/2021:02:03:58 753 [Calculator.java] [INFO] Calculator power of the number -1.0,3.0
+12/Mar/2021:02:03:58 753 [Calculator.java] [INFO] Calculator power of the number -1.0,3.0 is -1.0
+12/Mar/2021:02:03:58 757 [Calculator.java] [INFO] Calculator power of the number 0.0,0.0
+12/Mar/2021:02:03:58 758 [Calculator.java] [INFO] Calculator power of the number 0.0,0.0 is 1.0
+12/Mar/2021:02:03:58 758 [Calculator.java] [INFO] Calculator power of the number 2.0,3.0
+12/Mar/2021:02:03:58 759 [Calculator.java] [INFO] Calculator power of the number 2.0,3.0 is 8.0
+12/Mar/2021:02:03:58 760 [Calculator.java] [INFO] Calculator power of the number -1.0,3.0
+12/Mar/2021:02:03:58 760 [Calculator.java] [INFO] Calculator power of the number -1.0,3.0 is -1.0
+12/Mar/2021:02:03:58 762 [Calculator.java] [INFO] Calculator To find Factorial of number 0
+12/Mar/2021:02:03:58 763 [Calculator.java] [INFO] Calculator To find Factorial of number 1
+12/Mar/2021:02:03:58 763 [Calculator.java] [INFO] Calculator To find Factorial of number 5
+12/Mar/2021:02:03:58 763 [Calculator.java] [INFO] Calculator Result of factorial of 5 is 120
