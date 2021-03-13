@@ -1,6 +1,6 @@
 ---
 - name: Pull Docker image of calculator to remoter server
-  hosts: remoteserver
+  hosts: all
   tasks:
     - name: Pull image
         docker_image:
