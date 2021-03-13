@@ -1,7 +1,8 @@
 ---
-- name: Copy jar file to remoter server
+- name: Pull Docker image of calculator to remoter server
   hosts: remoteserver
   tasks:
-    - copy:
-        src: ./target/Calculator-1.0-SNAPSHOT.jar
-        dest: ~/
+    - name: Pull image
+        docker_image:
+        name: njjetha/calculator-devops
+        source: pull
