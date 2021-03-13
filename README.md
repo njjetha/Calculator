@@ -1,4 +1,4 @@
-# Calculator
+# Scientific Calculator
 The project uses the devops tools like Jenkins,Ansible,Docker,ELK stack.The Calculator perform following task
 1. Power
 2. Logarithm
