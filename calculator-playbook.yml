@@ -1,8 +1,8 @@
 ---
-- name: Pull docker image of SPECalculator
+- name: Pull docker image of Calculator
   hosts: all
   tasks:
-    - name: Pull junit devops image
+    - name: Pull calculator devops image
       docker_image:
         name: njjetha/calculator-devops
         source: pull
