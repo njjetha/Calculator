@@ -1,8 +1,8 @@
 ---
-- name: Pull Docker image of calculator to remoter server
+- name: Pull docker image of SPECalculator
   hosts: all
   tasks:
-    - name: Pull image
-        docker_image:
+    - name: Pull junit devops image
+      docker_image:
         name: njjetha/calculator-devops
         source: pull
